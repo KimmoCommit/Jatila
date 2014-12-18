@@ -8,7 +8,7 @@ div(class="row")
 		div(class="leiri-list-container" ng-repeat="leiri in Leirit")
 			table
 				tr
-					td(ng-click='showLeiriDescription()') {{$index + 1}}. {{ leiri.name }} 
+					td {{$index + 1}}. {{ leiri.name }} 
 					td {{ leiri.time }}
 					td {{ leiri.price }}€
 					td

@@ -1,0 +1,64 @@
+div(class="row")
+	div(class="cute-12-tablet")
+		h2 Hevoset
+
+
+div(class="row")
+	div(class="cute-12-tablet")
+		div(id="search-selector-wrapper")
+			searchselectors
+
+
+
+div(id="hevoset-container" class="search-container search-container-block" style="display:block")
+	div(class="row")
+		div(class="cute-12-tablet")
+			input(type="text" class="search-input" ng-model="hevonen.filter" placeholder="Etsi..")
+
+	div(class="row")
+		div(class="cute-12-tablet")
+			div(class="hevoset-list-container" ng-repeat="hevonen in Hevoset | filter: {name: hevonen.filter}" )
+					table
+						tr
+							td
+								hevonenimg
+							td {{ hevonen.name }} <br/> <span style="font-size:16px"> {{ hevonen.description }} </span>
+
+							td
+	
+
+div(id="ponit-container" class="search-container")
+	div(class="row")
+		div(class="cute-12-tablet")
+			input(type="text" ng-model="poni.filter" placeholder="Etsi..")
+
+	div(class="row")
+		div(class="cute-12-tablet")
+			div(class="hevoset-list-container" ng-repeat="poni in Ponit | filter: {name: poni.filter}" )
+					table
+						tr
+							td
+								hevonenimg
+							td {{ poni.name }} <br/> <span style="font-size:16px"> {{ poni.description }} </span>
+
+							td
+
+
+div(id="muut-container" class="search-container")
+	div(class="row")
+		div(class="cute-12-tablet")
+			input(type="text" ng-model="muu.filter" placeholder="Etsi..")
+
+	div(class="row")
+		div(class="cute-12-tablet")
+			div(class="hevoset-list-container" ng-repeat="muu in Muut | filter: {name: muu.filter}" )
+					table
+						tr
+							td
+								hevonenimg
+							td {{ muu.name }} <br/> <span style="font-size:16px"> {{ muu.description }} </span>
+
+							td
+
+		
+		

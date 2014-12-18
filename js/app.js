@@ -39,15 +39,18 @@ $logProvider.debugEnabled(true);
 		.when("/yhteystiedot", {
 		templateUrl: 'views/yhteystiedot.html',
 		title: appName + 'Yhteystiedot'
-		//controller:'yhteystiedotController'
 	})
 
 		.when("/talli", {
 		templateUrl: 'views/talli.html',
 		title: appName + 'Talli'
-		//controller:'yhteystiedotController'
 	})
 
+		.when("/hevoset", {
+		templateUrl: 'views/hevoset.html',
+		title: appName + 'Hevoset',
+		controller:'hevosetController'
+	})
 
 	.otherwise({ redirectTo: '/'});
 
