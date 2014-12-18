@@ -1,6 +1,18 @@
 [
-{"name":"Poni #1", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dicta at officia quia culpa ut saepe minus voluptatem quas quaerat."},
-{"name":"Poni #2", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, mollitia."}
+{"name":"Houdin", "description":"Poppoon pienin poni ja meneekin vain pienimmillä ratsastajilla. Usein mukana, kun harjoitellaan agilityä."},
+{"name":"Hietsu", "description":"Nuorehko poika, joka vasta vajaan vuoden ollut tunneilla mukana. Välillä reipas, välillä vähän laiskottelee, opettelee hommaa vähitellen."},
+{"name":"Peppi", "description":"Kiltti, tosi pieni Amerikan miniatyyrihevonen. Voi mennä alle 25-kiloisilla ratsastajilla."},
+{"name":"Mallu", "description":"Pieni, sympaattinen poni, joka liikkuu reippaasti tunneilla ja on kiltti hoitaa."},
+{"name":"Hartsu", "description":"Lempeä poni, jota voi hoitaa. Hartsu ei käy tunneilla."},
+{"name":"Herkku", "description":"Kirjava poni, kiltti hoitaa. Ratsastaessa voi joskus innostua tekemään pukinkin!"},
+{"name":"Poppari", "description":"Tallin toinen kirjava shettis. Äärettömän kiltti hoitaa ja nöyrä ratsastaa. Hyppääkin ihan mielellään."},
+{"name":"Tähti", "description":"Rauhallinen ja kiltti. Monien suosikki, omaa tasaiset liikkeet. "},
+{"name":"Heta", "description":"Mukava hoitaa. Kun Hetaa ratsastaa tomerasti alusta asti, liikkuu se myös mukavasti. Hyvä hyppäämään."},
+{"name":"Ted", "description":"Isoin pikkuponeista. Saattaa näykkiä hoitaessa, eli pitää sitoa karsinassa tarpeeksi lyhyelle. Ted on myös sen verran ahne, että taluttaessa pitää olla tarkka, ettei se päätä lähteä ruohikolle. Oikein kiva ratsastaa, reipas ja hyppää tosi hyvin."},
+{"name":"Onni", "description":"Tallin luottoponi, helppo käsitellä. Onni on jo vähän vanhempi, menee vain kevyitä tunteja eikä sillä hypätä."},
+{"name":"Monni", "description":"Iäkäs, reipas vanha herra. Hoidetaan käytävällä, saattaa vähän luimia ja kuopia; Monnia pitääkin käsitellä rauhallisesti ja päättäväisesti"},
+{"name":"Fläki", "description":"Uusimpia tulokkaita pikkuponiporukkaan. Rauhallinen taluttaa ja hoitaa. Ratsastaessa reipas, hyppää kivasti."},
+{"name":"Emil", "description":"”Eemeliii!!” Keksii metkuja ja tekemistä. Karsinassa puuhakas, saattaa vähän näykkiä. Ratsastaessa aika reipas, tasaiset askeleet, mutta voi vetää pään alas tai keksiä jotain muuta. Metkuistaan huolimatta ihana! Osaavalla ratsastajalla hyppää hyvin."}
 
 ]
 
