@@ -1,0 +1,15 @@
+div(class="row")
+	div(class="cute-12-tablet")
+		h2 Kurssit (kevät 2015)
+
+div(class="row")
+	div(class="cute-7-tablet")
+		div(class="kurssi-list-container" ng-repeat="kurssi in Kurssit")
+				table
+					tr
+						td(ng-click='showLeiriDescription()') {{ kurssi.name }}  
+				p(style="display:block !important") {{kurssi.description}}	
+
+		h4(style="margin-top:30px") Varaukset: <a href="mailto:info@jatilantalli.fi" target="_top">info@jatilantalli.fi</a>
+	div(class="cute-5-tablet")
+		img(src="media/Kurssit.jpg" style="width:420px;height:auto;box-shadow:2px 4px 2px grey")

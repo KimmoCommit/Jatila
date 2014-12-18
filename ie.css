@@ -1,0 +1,9 @@
+<!--[if lt ie8]>
+ 
+.r-triangle-bottom,
+.r-triangle-top,
+.l-triangle-bottom,
+.l-triangle-top {
+   display: none;
+}
+<![endif]-->

@@ -1,0 +1,63 @@
+doctype html
+html(ng-app="elementApp" lang="en")
+	head
+		meta(content="text/html;charset=utf-8", http-equiv="Content-Type")
+		meta(content="utf-8", http-equiv="encoding")
+		link(rel="stylesheet" type="text/css" href="normalize.css")
+		link(rel="stylesheet" type="text/css" href="main.css")
+		link(rel="stylesheet" type="text/css" href="ie.css")
+		link(rel="stylesheet" type="text/css" href="cutegrids.css")
+		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet")
+		script(src='lib/jquery-1.11.1.min.js')
+		title(ng-bind="title")
+	body
+		
+		div(id='main-container')
+			div(id='banner') 
+				div(id='banner-filter') Jatilan Talli
+
+				//-img(src="http://placehold.it/1200x400") 
+				//-img(src='media/bnrThin.png')
+			div(id="navigation-container")
+				div(class="l-triangle-top")
+				div(class="l-triangle-bottom")
+				div(class="rectangle")
+					ul(id="navigation")
+						li 
+							a(href='#/') Etusivu
+						li Toiminta
+							ul
+								li 
+									a(href='#/kurssit') Kurssit
+								li 
+									a(href='#/kisat') Kisat
+								li 
+									a(href='#/leirit') Leirit
+								li 
+									a(href='#/hinnat') Hinnasto
+						li
+							a(href='#/talli') Talli
+						//li 
+							a(href='#/') Historia
+						//li
+							a(href='#/') Galleria
+						li
+							a(href='#/yhteystiedot') Yhteystiedot
+
+				div(class="r-triangle-top")
+				div(class="r-triangle-bottom")
+			div(id="content-container")
+				div(ng-view)
+			footer
+				div(id="footer-text")  <span style="padding-right: 15px">info@jatilantalli.fi</span> 040-5007779 / Liisa Mannermaa
+	script(src='lib/angular.js')
+	script(src="lib/angular-route.min.js")
+	script(src='js/app.js')
+	script(src="js/controllers/hinnatController.js")
+	script(src="js/controllers/kurssitController.js")
+	script(src="js/controllers/leiritController.js")
+	script(src="js/controllers/kisatController.js")
+	script(src="js/directives/leiriDescription.js")
+
+
+

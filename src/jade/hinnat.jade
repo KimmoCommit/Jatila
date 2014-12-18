@@ -1,0 +1,28 @@
+div(class="row")
+	div(class="cute-12-tablet")
+		h2 Hinnasto
+div(class="row")
+	div(class="cute-6-tablet")
+
+
+		table(id="hinnat-price-table")
+			tr(ng-repeat="hinta in Hinnat")
+				td {{hinta.name}}
+				td {{hinta.price}}€
+
+
+	div(class="cute-6-tablet")
+		//h5(id="hinnat-special-offer") Arkipäivisin tunnit ennen klo 15: alennus <span>10€</span> normaalihinnoista!
+		img(id="special-offer-img" src="media/Mallu_syvätty2_2.png" style="margin-top:-10px; width: 550px; height: auto")
+		h5(id="special-offer-text") Arkipäivisin tunnit ennen klo 15: alennus <span>10€</span> normaalihinnoista!
+
+
+//div(class="row")
+	div(class="cute-12-tablet")
+		div(class="list-container")
+			h3 Estetunnit
+			p Estetunnit järjestetään joka 2. viikko sunnuntaisin.
+		div(class="list-container")
+			h3 Tehotreenit
+			p  Tammikuussa kahden viikon ajan tehokkaat tunnit (koulu tai este) ke, pe ja su, yht. 6h 180€
+

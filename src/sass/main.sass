@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display)
+@import url(http://fonts.googleapis.com/css?family=Open+Sans)
+@import mixins
+@import variables
+@import fonts
+@import mq
+@import modules/list
+@import modules/ribbon
+@import modules/banner
+@import views/toiminta
+@import views/hinnat
+@import views/leirit
+@import views/yhteystiedot
+@import views/kisat
+@import views/kurssit
+@import url(http://fonts.googleapis.com/css?family=Coustard|Lobster|Pacifico|Noticia+Text|Jacques+Francois|Chewy|Indie+Flower|Alegreya|Satisfy|Dancing+Script|Courgette|Handlee|Coming+Soon|Jacques+Francois+Shadow|Lobster+Two|Alegreya+SC|Marmelad)
+
+
+
+*
+	box-sizing: border-box
+
+ul
+	margin: 0 
+
+a
+	color: $ribbonMainColor
+
+html
+	border-top: 2px solid $ribbonMainColor
+
+
+body
+	background-color: $white
+	width: 100%
+	text-align: center
+	margin-bottom: 2%
+
+
+
+#main-container
+	max-width: $main-container-width
+	margin-top: 1%
+	display: inline-block
+	min-height: 100%
+	background-color: white
+	border: 1px solid transparent
+	box-shadow: 1px 4px 5px rgba(77,77,77,0.5)
+
+
+
+
+	
+
+	#content-container
+		background-color: white
+		border-top: 1px solid transparent
+		width: 85%
+		margin: 0 auto
+		min-height: 100%
+		color: rgba(37,37,37,0.95)
+		text-align: left
+		font-size: 125%
+		margin-bottom: 6%
+
+
+
+		h2
+			//text-shadow: 1px 1px 1px grey
+			font-size: 35px
+			margin-top: 2%
+			margin-bottom: 2%
+			font-family: 'Playfair Display', serif
+		h3
+			margin-bottom: 2%
+			//margin-left: 2%
+			font-family: $commonFont
+			font-size: 22px
+
+		p
+			font-family: $commonFont
+			font-size: 18
+
+
+		#welcome-text
+			margin-top: 2%
+			font-size: 24px
+			text-align: center
+			a
+				color: $ribbonMainColor - 80
+
+
+	#fbFrameWrapper
+		padding-top: 2%
+		#fbFrame
+
+			border: 0
+			min-width:  900px
+			min-height: 1200px
+			margin: 0 auto
+			display: block
+
+
+footer
+	box-shadow: 1px 4px 5px rgba(77,77,77,0.5)
+	border: 1px solid transparent
+	border-top: 1px solid $ribbonMainColor - 10
+	display: inline-block
+	width: 100%
+	$footer-height: 80px
+	height: $footer-height
+	background-color: $ribbonMainColor
+	text-align: center
+
+	#footer-text
+		color: $ribbonMainColor - 40
+		padding: 1%
+		font-size: 18px
+		display: inline-block
+		line-height: $footer-height / 1.4
+		text-shadow: 1px 1px 1px $ribbonMainColor, 0 0 0 #000, 1px 1px 1px $ribbonMainColor + 80
+
