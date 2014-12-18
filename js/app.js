@@ -52,6 +52,13 @@ $logProvider.debugEnabled(true);
 		controller:'hevosetController'
 	})
 
+
+		.when("/tunnit", {
+		templateUrl: 'views/tunnit.html',
+		title: appName + 'Tunnit',
+		
+	})
+
 	.otherwise({ redirectTo: '/'});
 
 }]);

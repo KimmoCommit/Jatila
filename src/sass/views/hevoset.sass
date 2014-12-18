@@ -1,0 +1,77 @@
+.hevoset-list-container
+	//border: 1px solid $white - 40
+	padding: 0.5%
+	border-radius: 5px
+	tr
+		width: 100%
+		td
+			&:first-of-type
+				width: 10%
+				img
+					width: auto
+					height: 150px
+					box-shadow: 2px 2px 2px grey
+			&:nth-child(2)
+				padding-left: 2%
+				width: 85%
+				font-size: 24px
+			&:nth-child(3)
+				width: 5%
+				text-align: center
+				i
+					display: inline-block
+
+
+.hevonen-accordion
+	display: none
+	background-color: $white - 10
+	padding: 2%
+	font-size: 18px
+	border-radius: 5px
+
+.fa-caret-down
+	cursor: pointer
+	color: $ribbonMainColor
+
+
+.openCaret
+	color: $ribbonMainColor - 50
+
+
+.search-container-block
+	display: block
+
+.search-container
+	display: none
+
+
+#search-selector-wrapper
+	span
+		float: left
+		text-align: center
+		cursor: pointer
+		border-bottom: 2px solid transparent
+		margin-right: 1%
+		&:hover
+			border-bottom: 2px solid $ribbonMainColor + 25
+			background-color: $ribbonMainColor + 5
+			transition: all 0.2s ease-in
+	
+.search-input
+	border: 0
+	padding: 0.5%
+	border: 2px solid $ribbonMainColor
+	box-shadow: 0
+	margin-bottom: 2% 
+	border-style: solid
+
+	&:focus
+		outline: 0
+
+.search-selector-selected
+	border-bottom: 2px solid $ribbonMainColor - 50 !important
+
+.search-selector
+	background-color: $ribbonMainColor
+	color: white
+	padding: 1%

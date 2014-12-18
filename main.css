@@ -201,25 +201,25 @@
   #special-offer-text span {
     color: #668733; }
 
-.leiri-list-container:last-of-type, .kisat-list-container:last-of-type, .kurssi-list-container:last-of-type {
+.leiri-list-container:last-of-type, .kisat-list-container:last-of-type, .kurssi-list-container:last-of-type, .tunti-list-container:last-of-type {
   margin-bottom: 3%; }
-.leiri-list-container table, .kisat-list-container table, .kurssi-list-container table {
+.leiri-list-container table, .kisat-list-container table, .kurssi-list-container table, .tunti-list-container table {
   width: 100%; }
-  .leiri-list-container table tr, .kisat-list-container table tr, .kurssi-list-container table tr {
+  .leiri-list-container table tr, .kisat-list-container table tr, .kurssi-list-container table tr, .tunti-list-container table tr {
     display: block;
     margin-bottom: 10px;
     width: 100%; }
-    .leiri-list-container table tr td, .kisat-list-container table tr td, .kurssi-list-container table tr td {
+    .leiri-list-container table tr td, .kisat-list-container table tr td, .kurssi-list-container table tr td, .tunti-list-container table tr td {
       min-width: 250px;
       padding: 0%;
       font-size: 18px; }
-      .leiri-list-container table tr td:nth-child(2), .kisat-list-container table tr td:nth-child(2), .kurssi-list-container table tr td:nth-child(2) {
+      .leiri-list-container table tr td:nth-child(2), .kisat-list-container table tr td:nth-child(2), .kurssi-list-container table tr td:nth-child(2), .tunti-list-container table tr td:nth-child(2) {
         min-width: 250px; }
-      .leiri-list-container table tr td:nth-child(3), .kisat-list-container table tr td:nth-child(3), .kurssi-list-container table tr td:nth-child(3) {
+      .leiri-list-container table tr td:nth-child(3), .kisat-list-container table tr td:nth-child(3), .kurssi-list-container table tr td:nth-child(3), .tunti-list-container table tr td:nth-child(3) {
         border-bottom: 1px solid transparent; }
-.leiri-list-container:last-of-type tr, .kisat-list-container:last-of-type tr, .kurssi-list-container:last-of-type tr {
+.leiri-list-container:last-of-type tr, .kisat-list-container:last-of-type tr, .kurssi-list-container:last-of-type tr, .tunti-list-container:last-of-type tr {
   border-bottom: 1px solid transparent; }
-.leiri-list-container p, .kisat-list-container p, .kurssi-list-container p {
+.leiri-list-container p, .kisat-list-container p, .kurssi-list-container p, .tunti-list-container p {
   font-size: 14px;
   margin-left: 5px;
   display: none;
@@ -249,12 +249,12 @@
 .kisat-list-container tr {
   padding-bottom: 1%; }
 
-.kurssi-list-container {
+.kurssi-list-container, .tunti-list-container {
   margin-bottom: 3%; }
-  .kurssi-list-container table:last-of-type tr {
+  .kurssi-list-container table:last-of-type tr, .tunti-list-container table:last-of-type tr {
     padding: 0;
     margin: 0; }
-  .kurssi-list-container p {
+  .kurssi-list-container p, .tunti-list-container p {
     border: none;
     margin: none;
     font-size: 14px;
@@ -316,7 +316,7 @@
 .search-input {
   border: 0;
   padding: 0.5%;
-  border: 1px solid #84a551;
+  border: 2px solid #84a551;
   box-shadow: 0;
   margin-bottom: 2%;
   border-style: solid; }
