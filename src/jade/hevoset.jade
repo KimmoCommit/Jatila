@@ -17,7 +17,7 @@ div(id="hevoset-container" class="search-container")
 
 	div(class="row")
 		div(class="cute-12-tablet")
-			div(class="hevoset-list-container" ng-repeat="hevonen in Hevoset | filter: {name: hevonen.filter}" )
+			div(class="hevoset-list-container" ng-repeat="hevonen in Hevoset | filter: hevonen.filter" )
 					table
 						tr
 							td
@@ -34,7 +34,7 @@ div(id="ponit-container" class="search-container" style="display:block")
 
 	div(class="row")
 		div(class="cute-12-tablet")
-			div(class="hevoset-list-container" ng-repeat="poni in Ponit | filter: {name: poni.filter}" )
+			div(class="hevoset-list-container" ng-repeat="poni in Ponit | filter: poni.filter" )
 					table
 						tr
 							td
