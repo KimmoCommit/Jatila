@@ -3,7 +3,7 @@ app.directive("searchselectors", function () {
 return{
     restrict: "EA",
     scope: true,
-    template: "<span class='search-selector-selected search-selector' rel='hevoset-container'>Hevoset ja isot ponit</span><span class='search-selector' rel='ponit-container'>Pienet ponit</span><span class='search-selector' rel='muut-container'>Muut hevoset ja ponit</span>",
+    template: "<span class='search-selector search-selector-selected' rel='ponit-container'>Pienet ponit</span><span class='search-selector' rel='hevoset-container'>Hevoset ja isot ponit</span>",
 	link: function (scope, elem, attrs, ctrl) {
 		elem.children("span").click(function(){
 

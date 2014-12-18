@@ -310,8 +310,7 @@
   margin-right: 1%; }
   #search-selector-wrapper span:hover {
     border-bottom: 2px solid #9dbe6a;
-    background-color: #89aa56;
-    transition: all 0.2s ease-in; }
+    background-color: #89aa56; }
 
 .search-input {
   border: 0;
