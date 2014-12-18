@@ -254,10 +254,12 @@
   .kurssi-list-container table:last-of-type tr, .tunti-list-container table:last-of-type tr {
     padding: 0;
     margin: 0; }
+    .kurssi-list-container table:last-of-type tr td:first-of-type, .tunti-list-container table:last-of-type tr td:first-of-type {
+      padding-bottom: 5px; }
   .kurssi-list-container p, .tunti-list-container p {
     border: none;
     margin: none;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     padding: 0; }
 
