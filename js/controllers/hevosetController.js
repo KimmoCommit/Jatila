@@ -13,10 +13,7 @@ app.controller('hevosetController', ['$scope','$http', function($scope, $http){
 		$scope.Ponit = res.data;
 	});
 
-	$http.get('res/muutHevoset.json').
-	then(function(res){
-		$scope.Muut = res.data;
-	});
+
 
 
 }]);
