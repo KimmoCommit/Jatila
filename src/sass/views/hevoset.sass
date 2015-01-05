@@ -1,3 +1,12 @@
+.hevoset-list-container-enter.ng-enter, .hevoset-list-container-enter.ng-leave, .hevoset-list-container-enter.ng-move
+	-webkit-transition: 0.5s linear all
+	transition: 0.5s linear all
+
+.hevoset-list-container-enter.ng-enter, .hevoset-list-container-enter.ng-move
+	opacity: 0
+
+
+
 .hevoset-list-container
 	//border: 1px solid $white - 40
 	padding: 0.5%
@@ -70,8 +79,12 @@
 
 .search-selector-selected
 	border-bottom: 2px solid $ribbonMainColor - 50 !important
+	background-color: $ribbonMainColor - 25 !important
 
 .search-selector
 	background-color: $ribbonMainColor
 	color: white
 	padding: 1%
+
+
+
