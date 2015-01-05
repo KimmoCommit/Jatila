@@ -11,9 +11,10 @@ div(class="row")
 					td {{$index + 1}}. {{ leiri.name }} 
 					td {{ leiri.time }}
 					td {{ leiri.price }}€
-					td
-						div(leiridescription)
+					td {{ leiri.teacher }}
+						//div(leiridescription)
 							i(ng-if='leiri.description != ""' class='fa fa-plus-square-o' style='float:left;text-align:left;cursor:pointer')
+					
 			p {{ leiri.description }}
 		
 		h4 Leirit täyttyvät nopeasti - varaa paikkasi pian: <a href="mailto:info@jatilantalli.fi" target="_top">info@jatilantalli.fi</a>
