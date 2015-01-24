@@ -15,8 +15,8 @@
 @import views/hevoset
 @import views/tunnit
 
-
-
+//$bg-color: rgb(188, 156, 99)
+$bg-color: lemonchiffon 
 *
 	box-sizing: border-box
 
@@ -45,7 +45,9 @@ body
 	margin-top: 1%
 	display: inline-block
 	min-height: 100%
-	background-color: white
+	//background-color: white
+	
+	background-color: $bg-color
 	//border: 1px solid transparent
 	box-shadow: 1px 4px 5px rgba(77,77,77,0.5)
 
@@ -55,7 +57,7 @@ body
 	
 
 	#content-container
-		background-color: white
+		background-color: $bg-color
 		border-top: 1px solid transparent
 		width: 85%
 		margin: 0 auto

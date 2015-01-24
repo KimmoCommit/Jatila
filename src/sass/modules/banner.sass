@@ -1,5 +1,6 @@
-$bnrHeight: 410px
+$bnrHeight: 450px
 $bnrFontSize: 82px
+
 
 #banner
 	font-family: $bnrFont
@@ -7,27 +8,43 @@ $bnrFontSize: 82px
 	width: 1200px
 	background-color: $ribbonMainColor
 	text-align: center
-	//background: url('media/bnrOrig.jpg')
+	background: url('media/bnrOrig.jpg')
 	background-repeat: no-repeat
 	background-size: 100% 100%
 	height: $bnrHeight
+	border-top: 8px solid $ribbonMainColor
 	
 	
 	
 	//text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def
 	display: inline-block
 
-
+	/*img
+		position: absolute
+		top: 250px
+		left: 815px
+		background-color: $ribbonMainColor
+		padding: 1%
+		width: 250px !important
+		height: auto !important
+		border-radius: 15px 15px 0px 0px*/
 
 	img
-		display: inline-block
-		margin: 0 auto
-		width: 1200px
-		height: auto
+		display: block
+		float: left
+		margin-top: 0%
+		margin-bottom: 0%
+		margin-left: 15%
+		background-color: rgba($ribbonMainColor,1)
+		border-radius: 0px 0px 15px 15px
+		padding: 5%
+		//box-shadow: 1px 2px 2px rgba(50,50,50,0.5)
+
+
 
 	#banner-filter
 
-		text-align: center
+		text-align: left
 		display: inline-block
 		width: 100%
 		height: 100%
@@ -36,8 +53,8 @@ $bnrFontSize: 82px
 			font-size: $bnrFontSize
 			display: inline-block			
 			line-height: $bnrHeight 
-			color: rgba(white,0.9)
-			text-shadow:  2px 2px 2px $ribbonMainColor - 30	
+			color: rgba(black,0.9)
+			//text-shadow:  2px 2px 2px $ribbonMainColor - 30	
 
 			span
 				border-bottom: 2px solid $ribbonMainColor - 30
