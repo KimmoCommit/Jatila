@@ -355,7 +355,8 @@
   border: 2px solid #84a551;
   box-shadow: 0;
   margin-bottom: 2%;
-  border-style: solid; }
+  border-style: solid;
+  background-color: transparent; }
   .search-input:focus {
     outline: 0; }
 
@@ -414,10 +415,10 @@ body {
   margin-top: 1%;
   display: inline-block;
   min-height: 100%;
-  background-color: lemonchiffon;
+  background-color: #faedb4;
   box-shadow: 1px 4px 5px rgba(77, 77, 77, 0.5); }
   #main-container #content-container {
-    background-color: lemonchiffon;
+    background-color: #faedb4;
     border-top: 1px solid transparent;
     width: 85%;
     margin: 0 auto;
