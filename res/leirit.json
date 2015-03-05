@@ -1,12 +1,1 @@
-[
-{"name":"Sennuleiri","time":"25.5-29.5","description":"","price":"450", "teacher":"Titta"},
-{"name":"Yleisleiri","time":"1.6-5.6","description":"","price":"420", "teacher":"Titta"},
-{"name":"Vuokrausleiri","time":"8.6-12.6","description":"","price":"450", "teacher":"(Riikka)"},
-{"name":"Esteleiri","time":"15.6-19.6 ","description":"","price":"450", "teacher":"Sara"},
-{"name":"Alkeis-/yleisleiri","time":"22.-26.6","description":"","price":"420", "teacher":"Riikka"},
-{"name":"Valmennussleiri","time":"29.6-3.7","description":"","price":"495", "teacher":"Jarna"},
-{"name":"Vuokrausleiri","time":"6.7- 10.7","description":"","price":"450", "teacher":"(Jarna)"},
-{"name":"Estealkeet","time":"13.7- 17.7","description":"","price":"450", "teacher":"Titta"},
-{"name":"Yleisleiri","time":"27.7- 31.7","description":"","price":"420", "teacher":"Riikka"},
-{"name":"Esteleiri","time":"3.8-7.8","description":"","price":"450", "teacher":"Jarna"}
-]
+[{"id":"54ea278163533","name":"asd","startTime":"","endTime":"","price":"","teacher":""},{"id":"54ea2781ce824","name":"asd","startTime":"","endTime":"","price":"","teacher":""},{"id":"54f8b43c73d89","name":"regdfb","startTime":"29.03.2015","endTime":"09.03.2015","price":"","teacher":""},{"id":"54f8b43ce32e3","name":"regdfb","startTime":"29.03.2015","endTime":"09.03.2015","price":"","teacher":""},{"id":"54f8b43d5789b","name":"regdfb","startTime":"29.03.2015","endTime":"09.03.2015","price":"","teacher":""},{"id":"54f8b43ec2fae","name":"regdfb","startTime":"29.03.2015","endTime":"09.03.2015","price":"","teacher":""},{"id":"54f8b43f25c22","name":"regdfb","startTime":"29.03.2015","endTime":"09.03.2015","price":"","teacher":""},{"id":"54f8b4e197d7e","name":"","startTime":"29.03.2015","endTime":"09.03.2015","price":"","teacher":""}]

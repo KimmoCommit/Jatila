@@ -1,0 +1,23 @@
+[class*='leiri-']{
+
+}
+
+tr > td {
+	border:1px solid transparent;
+	    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+th {
+	text-align: left;
+}
+
+.active{
+	background-color: rgba(245,245,245,1);
+	outline:0;
+	border:1px solid grey;
+}
