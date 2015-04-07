@@ -253,10 +253,8 @@
       font-weight: bold; }
 
 .leiri-full {
-  background-color: #ff320a;
-  color: white;
-  text-align: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
+  color: #ff320a;
+  text-align: center; }
 
 #contact-info {
   display: block;
