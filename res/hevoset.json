@@ -29,11 +29,14 @@
 
 {"name":"Sieradz","description":"Kirjava ruuna Puolasta. Kiltti hoitaa. Ratsastaessa Sierra vaatii tarkan ratsastajan, jotta malttaa pysyä kuulolla koko ajan. Taso HeB/RE 90cm."},
 
-{"name":"Turostin","description":"Turre on tallin terapiaratsu ja tekee kevyitä tunteja. Luotettava ratsastaa. Ei aina välitä harjailuista, joten voi kuopia hoitaessa. Laitetaan kuntoon käytävällä. Taso HeC."}
+{"name":"Turostin","description":"Turre on tallin terapiaratsu ja tekee kevyitä tunteja. Luotettava ratsastaa. Ei aina välitä harjailuista, joten voi kuopia hoitaessa. Laitetaan kuntoon käytävällä. Taso HeC."},
+
+{"name":"Zirkon ox", "description":"Zirkon on rauhallinen arabiruuna. Kiltti herrasmies. Tekee työt tunnollisesti ja hyppää mielellään, kunhan saa vähän rohkaisua ratsastajalta. Taso HeA/RE 80-90cm."},
+
+{"name":"Saliyah ox", "description":"Salli on kaunis arabitamma, kiltti hoitaa ja herkkä ratsastaa. He A, Sallilla ei hypätä."}
 
 
 
 
 
 ]
-

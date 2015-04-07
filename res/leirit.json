@@ -1,12 +1,12 @@
 [
-{"name":"Sennuleiri","time":"25.5-29.5","description":"","price":"450", "teacher":"Titta"},
-{"name":"Yleisleiri","time":"1.6-5.6","description":"","price":"420", "teacher":"Titta"},
-{"name":"Vuokrausleiri","time":"8.6-12.6","description":"","price":"450", "teacher":"(Riikka)"},
-{"name":"Esteleiri","time":"15.6-19.6 ","description":"","price":"450", "teacher":"Sara"},
-{"name":"Alkeis-/yleisleiri","time":"22.-26.6","description":"","price":"420", "teacher":"Riikka"},
-{"name":"Valmennussleiri","time":"29.6-3.7","description":"","price":"495", "teacher":"Jarna"},
-{"name":"Vuokrausleiri","time":"6.7- 10.7","description":"","price":"450", "teacher":"(Jarna)"},
-{"name":"Estealkeet","time":"13.7- 17.7","description":"","price":"450", "teacher":"Titta"},
-{"name":"Yleisleiri","time":"27.7- 31.7","description":"","price":"420", "teacher":"Riikka"},
-{"name":"Esteleiri","time":"3.8-7.8","description":"","price":"450", "teacher":"Jarna"}
+{"name":"Sennuleiri","time":"25.5-29.5","description":"","price":"450", "teacher":"Titta", "full": false},
+{"name":"Yleisleiri","time":"1.6-5.6","description":"","price":"420", "teacher":"Titta", "full": false},
+{"name":"Vuokrausleiri","time":"8.6-12.6","description":"","price":"450", "teacher":"(Riikka)", "full": false},
+{"name":"Esteleiri","time":"15.6-19.6 ","description":"","price":"450", "teacher":"Sara", "full": true},
+{"name":"Alkeis-/yleisleiri","time":"22.-26.6","description":"","price":"420", "teacher":"Riikka", "full": false},
+{"name":"Valmennussleiri","time":"29.6-3.7","description":"","price":"495", "teacher":"Jarna", "full": false},
+{"name":"Vuokrausleiri","time":"6.7- 10.7","description":"","price":"450", "teacher":"(Jarna)", "full": false},
+{"name":"Yleis-/Estealkeet","time":"13.7- 17.7","description":"","price":"450", "teacher":"Titta","full": false},
+{"name":"Yleisleiri","time":"27.7- 31.7","description":"","price":"420", "teacher":"Riikka","full": true},
+{"name":"Esteleiri","time":"3.8-7.8","description":"","price":"450", "teacher":"Jarna", "full": true}
 ]

@@ -1,7 +1,6 @@
 [
 {"name":"Houdin", "description":"Poppoon pienin poni ja meneekin vain pienimmillä ratsastajilla. Usein mukana, kun harjoitellaan agilityä."},
 {"name":"Hietsu", "description":"Nuorehko poika, joka vasta vajaan vuoden ollut tunneilla mukana. Välillä reipas, välillä vähän laiskottelee, opettelee hommaa vähitellen."},
-{"name":"Peppi", "description":"Kiltti, tosi pieni Amerikan miniatyyrihevonen. Voi mennä alle 25-kiloisilla ratsastajilla."},
 {"name":"Mallu", "description":"Pieni, sympaattinen poni, joka liikkuu reippaasti tunneilla ja on kiltti hoitaa."},
 {"name":"Hartsu", "description":"Lempeä poni, jota voi hoitaa. Hartsu ei käy tunneilla."},
 {"name":"Herkku", "description":"Kirjava poni, kiltti hoitaa. Ratsastaessa voi joskus innostua tekemään pukinkin!"},

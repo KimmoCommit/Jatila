@@ -12,6 +12,7 @@ div(class="row")
 					td {{ leiri.time }}
 					td {{ leiri.price }}€
 					td {{ leiri.teacher }}
+					td(ng-if="leiri.full" class="leiri-full") Täynnä
 						//div(leiridescription)
 							i(ng-if='leiri.description != ""' class='fa fa-plus-square-o' style='float:left;text-align:left;cursor:pointer')
 					
