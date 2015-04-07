@@ -59,6 +59,9 @@ $logProvider.debugEnabled(true);
 		
 	})
 
+
+		
+
 	.otherwise({ redirectTo: '/'});
 
 }]);
