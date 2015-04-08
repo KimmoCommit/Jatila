@@ -1,14 +1,12 @@
 <?php
 
-
 $jsonurl = "../res/leirit.json";
 $json = file_get_contents($jsonurl,0,null,null);
 $json_output = json_decode($json,true);
 
-
-
-
 ?>
+
+
 
 <!DOCTYPE html>
 <html>
