@@ -150,14 +150,14 @@
   border-top: 8px solid #84a551;
   display: inline-block;
   /*img
-   * position: absolute
-   * top: 250px
-   * left: 815px
-   * background-color: $ribbonMainColor
-   * padding: 1%
-   * width: 250px !important
-   * height: auto !important
-   * border-radius: 15px 15px 0px 0px */ }
+		position: absolute
+		top: 250px
+		left: 815px
+		background-color: $ribbonMainColor
+		padding: 1%
+		width: 250px !important
+		height: auto !important
+		border-radius: 15px 15px 0px 0px*/ }
   #banner img {
     display: block;
     float: left;
@@ -223,6 +223,7 @@
 
 .leiri-list-container:last-of-type, .kisat-list-container:last-of-type, .kurssi-list-container:last-of-type {
   margin-bottom: 3%; }
+
 .leiri-list-container table, .kisat-list-container table, .kurssi-list-container table {
   width: 100%; }
   .leiri-list-container table tr, .kisat-list-container table tr, .kurssi-list-container table tr {
@@ -237,8 +238,10 @@
         min-width: 200px; }
       .leiri-list-container table tr td:last-of-type, .kisat-list-container table tr td:last-of-type, .kurssi-list-container table tr td:last-of-type {
         max-width: 50px !important; }
+
 .leiri-list-container:last-of-type tr, .kisat-list-container:last-of-type tr, .kurssi-list-container:last-of-type tr {
   border-bottom: 1px solid transparent; }
+
 .leiri-list-container p, .kisat-list-container p, .kurssi-list-container p {
   font-size: 14px;
   margin-left: 5px;
@@ -457,7 +460,7 @@ body {
       font-size: 35px;
       margin-top: 2%;
       margin-bottom: 2%;
-      font-family: "Playfair Display", serif; }
+      font-family: 'Playfair Display', serif; }
     #main-container #content-container h3 {
       margin-bottom: 2%;
       font-family: "Open Sans", sans-serif;
@@ -479,6 +482,8 @@ body {
     margin: 0 auto;
     display: block;
     text-align: center; }
+    #main-container #fbFrameWrapper > div {
+      display: inline-block; }
 
 footer {
   border-top: 1px solid #7a9b47;
@@ -494,5 +499,3 @@ footer {
     display: inline-block;
     line-height: 57.14286px;
     text-shadow: 1px 1px 1px #84a551, 0 0 0 #000, 1px 1px 1px #d4f5a1; }
-
-/*# sourceMappingURL=main.css.map */
