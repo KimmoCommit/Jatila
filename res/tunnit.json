@@ -1,0 +1,45 @@
+[
+
+
+{"day":"Ma","teacher":"Titta","lessons":[
+	
+	{"time":"Klo 17-18","description":"Jun HeC"},
+	{"time":"Klo 18-19","description":"aikuisten jatko I"}
+
+]},
+
+
+{"day":"Ti","teacher":"Titta","lessons":[
+	
+	{"time":"Klo 17-17.30","description":"minitunti"},
+	{"time":"Klo 17.30-18.30","description":"Jun HeC"},
+	{"time":"Klo 18.30","description":"Jun/Sen heC"}
+
+]},
+
+
+{"day":"Ke","teacher":"Jarna","lessons":[
+	
+	{"time":"Klo 16-17","description":"Alkeistunti"},
+	{"time":"Klo 17-18","description":"Yleis/este Jun"},
+	{"time":"Klo 18-30","description":"Yleis/este Sen"}
+
+]},
+
+{"day":"To","teacher":"Salli","lessons":[
+	
+	{"time":"Klo 17-18","description":"jatko I"},
+	{"time":"Klo 18-19","description":"HeB"}
+
+]},
+
+{"day":"La","teacher":"Riikka","lessons":[
+	
+	{"time":"Klo 12-13","description":"HeC/B"},
+	{"time":"Klo 13-14","description":"valmennusryhmä"}
+
+]}
+
+
+
+]

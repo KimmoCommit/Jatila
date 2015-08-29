@@ -1,6 +1,7 @@
 var app = angular.module("elementApp");
 
 app.controller('leiritController', ['$scope','$http', function($scope, $http){
+	$(".fb-page").hide();
 	$scope.Leirit = '';
 
 	$http.get('res/leirit.json').

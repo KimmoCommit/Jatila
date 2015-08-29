@@ -8,7 +8,8 @@ $logProvider.debugEnabled(true);
 	$routeProvider
 	.when("/", {
 		templateUrl: 'views/other.html',
-		title: appName + 'Etusivu'
+		title: appName + 'Etusivu',
+		controller:'etusivuController'
 
 	})
 	
@@ -55,12 +56,10 @@ $logProvider.debugEnabled(true);
 
 		.when("/tunnit", {
 		templateUrl: 'views/tunnit.html',
+		controller:'tunnitController',
 		title: appName + 'Tunnit',
 		
 	})
-
-
-		
 
 	.otherwise({ redirectTo: '/'});
 
@@ -75,14 +74,6 @@ app.run(['$location', '$rootScope',  function($location, $rootScope) {
 
 	});
 }]);
-
-
-
-
-
-
-
-
 
 
 

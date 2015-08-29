@@ -181,7 +181,8 @@
         border-bottom: 2px solid #668733; }
 
 #hinnat-price-table {
-  float: left; }
+  float: left;
+  width: 100%; }
   #hinnat-price-table tr {
     background-color: #84a551;
     color: white;
@@ -191,9 +192,10 @@
       min-width: 150px;
       padding: 2.5%;
       display: inline-block;
-      font-size: 24px; }
+      font-size: 21px; }
       #hinnat-price-table tr td:nth-of-type(2) {
-        text-align: right; }
+        text-align: right;
+        float: right; }
 
 #hinnat-special-offer {
   font-size: 28px;
@@ -219,25 +221,25 @@
   #special-offer-text span {
     color: #668733; }
 
-.leiri-list-container:last-of-type, .kisat-list-container:last-of-type, .kurssi-list-container:last-of-type, .tunti-list-container:last-of-type {
+.leiri-list-container:last-of-type, .kisat-list-container:last-of-type, .kurssi-list-container:last-of-type {
   margin-bottom: 3%; }
-.leiri-list-container table, .kisat-list-container table, .kurssi-list-container table, .tunti-list-container table {
+.leiri-list-container table, .kisat-list-container table, .kurssi-list-container table {
   width: 100%; }
-  .leiri-list-container table tr, .kisat-list-container table tr, .kurssi-list-container table tr, .tunti-list-container table tr {
+  .leiri-list-container table tr, .kisat-list-container table tr, .kurssi-list-container table tr {
     display: block;
     margin-bottom: 10px;
     width: 100%; }
-    .leiri-list-container table tr td, .kisat-list-container table tr td, .kurssi-list-container table tr td, .tunti-list-container table tr td {
+    .leiri-list-container table tr td, .kisat-list-container table tr td, .kurssi-list-container table tr td {
       min-width: 90px;
       padding: 0%;
       font-size: 18px; }
-      .leiri-list-container table tr td:first-of-type, .kisat-list-container table tr td:first-of-type, .kurssi-list-container table tr td:first-of-type, .tunti-list-container table tr td:first-of-type {
+      .leiri-list-container table tr td:first-of-type, .kisat-list-container table tr td:first-of-type, .kurssi-list-container table tr td:first-of-type {
         min-width: 200px; }
-      .leiri-list-container table tr td:last-of-type, .kisat-list-container table tr td:last-of-type, .kurssi-list-container table tr td:last-of-type, .tunti-list-container table tr td:last-of-type {
+      .leiri-list-container table tr td:last-of-type, .kisat-list-container table tr td:last-of-type, .kurssi-list-container table tr td:last-of-type {
         max-width: 50px !important; }
-.leiri-list-container:last-of-type tr, .kisat-list-container:last-of-type tr, .kurssi-list-container:last-of-type tr, .tunti-list-container:last-of-type tr {
+.leiri-list-container:last-of-type tr, .kisat-list-container:last-of-type tr, .kurssi-list-container:last-of-type tr {
   border-bottom: 1px solid transparent; }
-.leiri-list-container p, .kisat-list-container p, .kurssi-list-container p, .tunti-list-container p {
+.leiri-list-container p, .kisat-list-container p, .kurssi-list-container p {
   font-size: 14px;
   margin-left: 5px;
   display: none;
@@ -374,18 +376,32 @@
   padding: 1%; }
 
 .tunti-list-container {
+  font-size: 18px;
   margin-bottom: 3%; }
-  .tunti-list-container table:last-of-type tr {
-    padding: 0;
-    margin: 0; }
-    .tunti-list-container table:last-of-type tr td:first-of-type {
-      padding-bottom: 5px; }
+  .tunti-list-container table tr {
+    display: block;
+    margin-bottom: 3px; }
   .tunti-list-container p {
     border: none;
     margin: none;
     font-size: 16px;
     margin: 0;
     padding: 0; }
+
+.tuntikuvaukset-title {
+  font-size: 20.7px;
+  margin-bottom: 4%;
+  font-weight: bold; }
+
+.tuntikuvaukset-list-container {
+  margin-bottom: 3%;
+  font-size: 18px; }
+  .tuntikuvaukset-list-container table tr {
+    display: block;
+    margin-bottom: 3px; }
+    .tuntikuvaukset-list-container table tr:first-of-type {
+      font-size: 20.7px;
+      margin-bottom: 3px; }
 
 .talli-image {
   box-shadow: 2px 4px 2px grey; }
@@ -455,14 +471,14 @@ body {
       text-align: center; }
       #main-container #content-container #welcome-text a {
         color: #345501; }
+  #main-container .fb-page {
+    display: none; }
   #main-container #fbFrameWrapper {
-    padding-top: 2%; }
-    #main-container #fbFrameWrapper #fbFrame {
-      border: 0;
-      min-width: 900px;
-      min-height: 1200px;
-      margin: 0 auto;
-      display: block; }
+    padding-top: 2%;
+    border: 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center; }
 
 footer {
   border-top: 1px solid #7a9b47;

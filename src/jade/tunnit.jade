@@ -3,55 +3,26 @@ div(class="row")
 		h2 Tunnit (kevät 2015)
 
 div(class="row")
-	div(class="cute-7-tablet")
-		div(class="tunti-list-container")
+	
+	div(class='cute-7-tablet')
+		div(class='tunti-list-container' ng-repeat='tunti in Tunnit')
 			table
-				tr 
-					td Ma (Titta) 
-				tr 
-					td Klo 17-18 Jun HeC
 				tr
-					td 18-19 aikuisten jatko I
-					
-		div(class="tunti-list-container")
-			table
-				tr 
-					td Ti (Titta)
-				tr 
-					td Klo 17-17.30 minitunti
-				tr
-					td 17.30-18.30 Jun HeC
-				tr
-					td 18.30 Jun/Sen heC
+					td <span class="tunti-list-day">{{tunti.day}}</span> ({{tunti.teacher}})
 
-		div(class="tunti-list-container")
-			table
-				tr 
-					td Ke (Jarna)
-				tr 
-					td Klo 16-17 Alkeistunti
-				tr
-					td 17-18 Yleis/este Jun
-				tr
-					td 18-19 Yleis/este Sen
+				tr(ng-repeat='lesson in tunti.lessons')
+					td {{lesson.time}} {{lesson.description}}
 
-		div(class="tunti-list-container")
-			table
-				tr 
-					td To (Salli)
-				tr 
-					td Klo 17-18 jatko I
-				tr
-					td 18-19 HeB
-		
-		div(class="tunti-list-container")
-			table
-				tr 
-					td La (Riikka)
-				tr 
-					td Klo 12-13 HeC/B
-				tr
-					td 13-14 valmennusryhmä
 
 	div(class="cute-5-tablet")
 		img(src="media/three_horses.jpg" style="width:100%; height:auto; box-shadow:2px 2px 2px grey")
+
+div(class='row')
+	div(class='cute-12-tablet')
+		div(class='tuntikuvaukset-title') Ryhmät
+		div(class='tuntikuvaukset-list-container' ng-repeat='tk in Tuntikuvaukset')
+			table
+				tr
+					td {{tk.name}}
+				tr
+					td {{tk.description}}

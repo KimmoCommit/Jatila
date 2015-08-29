@@ -2,18 +2,12 @@
 
 
 .tunti-list-container
-	@extend .leiri-list-container
+	font-size: $general-font-size
 	margin-bottom: 3%
 	table
-		&:last-of-type
-			tr
-				padding: 0
-				margin: 0
-				td
-					&:first-of-type
-						padding-bottom: 5px
-						//color: $ribbonMainColor
-						
+		tr
+			display: block
+			margin-bottom: 3px						
 
 	p
 		border: none
@@ -21,4 +15,26 @@
 		font-size: 16px
 		margin: 0
 		padding: 0
+
+.tunti-list-day
+	//font-size: $general-font-size + ($general-font-size * 0.05)
+	//font-weight: bold
+
+
+.tuntikuvaukset-title
+	font-size: $general-font-size + ($general-font-size * 0.15)
+	margin-bottom: 4%
+	font-weight: bold
+
+.tuntikuvaukset-list-container
+	margin-bottom: 3%
+	font-size: $general-font-size
+	table
+		tr
+			display: block
+			margin-bottom: 3px
+			&:first-of-type
+				font-size: $general-font-size + ($general-font-size * 0.15)
+				margin-bottom: 3px 
+				//font-weight: bold
 

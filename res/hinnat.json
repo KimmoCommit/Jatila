@@ -1,5 +1,8 @@
 [
-{"name":"Kausikortti","price":"595"},
-{"name":"10x kortti","price":"300"},
-{"name":"Irtotunti","price":"35"}
+{"name":"Kausikortti","price":"495"},
+{"name":"Kausikortti perheale","price":"400"},
+{"name":"10x kortti (voimassa 14 vk)","price":"300"},
+{"name":"Irtotunti","price":"35"},
+{"name":"Minitunti","price":"20"},
+{"name":"Mini-alkeiskurssi (su)","price":"250"}
 ]

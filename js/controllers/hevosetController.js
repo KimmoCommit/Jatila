@@ -1,6 +1,7 @@
 var app = angular.module("elementApp");
 
 app.controller('hevosetController', ['$scope','$http', function($scope, $http){
+	$(".fb-page").hide();
 	$scope.Hevoset = '';
 	$scope.Ponit = '';
 	$scope.Muut = '';
