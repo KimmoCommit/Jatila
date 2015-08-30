@@ -5,6 +5,7 @@ app.controller('hevosetController', ['$scope','$http', function($scope, $http){
 	$scope.Hevoset = '';
 	$scope.Ponit = '';
 	$scope.Muut = '';
+	
 	$http.get('res/hevoset.json').
 	then(function(res){
 		$scope.Hevoset = res.data;

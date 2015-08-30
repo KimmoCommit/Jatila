@@ -1,4 +1,4 @@
-[
+[[
 
 
 {"day":"Ma","teacher":"Titta","lessons":[
@@ -42,4 +42,6 @@
 
 
 
-]
+],[{
+	"season":"(kevät 2015)"
+	}]]

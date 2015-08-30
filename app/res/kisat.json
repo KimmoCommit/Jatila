@@ -1,6 +1,9 @@
-[
+[[
 {"type":"Esteratsastuskilpailu","time":"25.01.2015"},
 {"type":"Kilpailuharjoitus ko","time":"08.03.2015"},
 {"type":"Esteratsastuskilpailu","time":"12.04.2015"},
 {"type":"Esteratsastuskilpailu","time":"24.05.2015"}
-]
+],
+[{
+	"season":"(kevät 2015)"
+	}]]

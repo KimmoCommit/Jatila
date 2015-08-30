@@ -7,7 +7,7 @@ $logProvider.debugEnabled(true);
   var appName = 'Jatilan Talli - ';
 	$routeProvider
 	.when("/", {
-		templateUrl: 'views/other.html',
+		templateUrl: 'views/etusivu.html',
 		title: appName + 'Etusivu',
 		controller:'etusivuController'
 

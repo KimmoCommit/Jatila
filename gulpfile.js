@@ -48,6 +48,14 @@ del 		= require('del');
  gulp.task('watch', function(){
  	gulp.watch(APP.SRC+'/src/jade/**/*.jade', ['jade']);
  	gulp.watch(APP.SRC+'/src/sass/**/*.sass',['sass']);
+ 	gulp.watch(APP.SRC+'/js/**/*',['concat']);
+ 	gulp.watch([
+ 		APP.SRC+'/res/**/*',
+ 		APP.SRC+'/media/**/*',
+ 		APP.SRC+'/img/**/*',
+ 		APP.SRC+'/css/**/*',
+ 		APP.SRC+'/lib/**/*'
+ 		],['copy']);
  });
 
  gulp.task('connect', function(){

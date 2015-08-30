@@ -1,4 +1,4 @@
-[
+[[
 {"name":"Poniagility", "description":"Maastakäsin harjoittelua ja agilitytehtäviä. 5krt ( 11.1-8.2) 15€ kerta/ 65€ kurssi"},
 {"name":"Esteviikonloppu", "description":"Maaliskuu. sis.teoria+ 3,5h rats.+ 2  lounasta 125€"},
 {"name":"Estevalmennus", "description":"10 krt (1.2-5.4) kausikorttilaisille 230€ (muut 300€)"},
@@ -6,5 +6,8 @@
 {"name":"Aikuisten viikonloppuleiri","description":"Maaliskuu pe-su. Monipuolinen viikonloppu, sis.ratsastusta, teoriaa, savusaunaa(+palju), hierontaa ja venyttelyä. Ihana hetki irtautua arjesta ja 'leikkiä heppatyttöä' koko viikonlopun. Majoitus ja ruoat sis.hintaan. 235€ "},
 {"name":"Estetunnit","description":"Estetunnit  joka 2. viikko sunnuntaisin."},
 {"name":"Tehotreenit","description":"Tammikuussa kahden viikon ajan tehokkaat tunnit (koulu tai este) ke, pe ja su, yht. 6h 180€"}
-]
+],
+[{
+	"season":"(kevät 2015)"
+	}]]
 
