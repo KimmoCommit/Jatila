@@ -3,41 +3,48 @@
 
 {"day":"Ma","teacher":"Titta","lessons":[
 	
-	{"time":"Klo 17-18","description":"Jun HeC"},
-	{"time":"Klo 18-19","description":"aikuisten jatko I"}
+	{"time":"Klo 17.00-18.00","description":"Junnut HeC"},
+	{"time":"Klo 18.00-19.00","description":"Esteryhmä"}
 
 ]},
 
 
 {"day":"Ti","teacher":"Titta","lessons":[
 	
-	{"time":"Klo 17-17.30","description":"minitunti"},
-	{"time":"Klo 17.30-18.30","description":"Jun HeC"},
-	{"time":"Klo 18.30","description":"Jun/Sen heC"}
+	{"time":"Klo 16.30-17.00","description":"Minitunti"},
+	{"time":"Klo 17.00-18.00","description":"Junnut HeC"},
+	{"time":"Klo 18.00-19.00","description":"Junnut/Sennut HeC/HeB"}
 
 ]},
 
 
-{"day":"Ke","teacher":"Jarna","lessons":[
+{"day":"Ke","teacher":"Jarna, tuuraajana Salli","lessons":[
 	
-	{"time":"Klo 16-17","description":"Alkeistunti"},
-	{"time":"Klo 17-18","description":"Yleis/este Jun"},
-	{"time":"Klo 18-30","description":"Yleis/este Sen"}
+	{"time":"Klo 17.00-18.00","description":"Alkeistunti"},
+	{"time":"Klo 18.00-19.00","description":"Yleis/este Junnut"}
 
 ]},
 
 {"day":"To","teacher":"Salli","lessons":[
 	
-	{"time":"Klo 17-18","description":"jatko I"},
-	{"time":"Klo 18-19","description":"HeB"}
+	{"time":"Klo 17.00-18.00","description":"Jatkoryhmä"},
+	{"time":"Klo 18.00-19.00","description":"Aikuisten alkeisryhmä"},
+	{"time":"Klo 19.00-20.00","description":"Junnut/sennut HeC/HeB"}
 
 ]},
 
-{"day":"La","teacher":"Riikka","lessons":[
+{"day":"La","teacher":"Riikka, tuuraajana Salli","lessons":[
 	
-	{"time":"Klo 12-13","description":"HeC/B"},
-	{"time":"Klo 13-14","description":"valmennusryhmä"}
+	{"time":"Klo 11.00-12.00","description":"Alkeisryhmä"},
+	{"time":"Klo 12.00-13.00","description":"HeC/HeB"},
+	{"time":"Klo 13.00-14.00","description":"Valmennusryhmä"}
 
+]},
+
+{"day":"Su","teacher":"Salli","lessons":[
+	
+	{"time":"Klo 11.00-12.00","description":"Mini-alkeiskurssi"}
+	
 ]}
 
 
