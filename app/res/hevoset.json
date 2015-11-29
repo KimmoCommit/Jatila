@@ -1,10 +1,6 @@
 [
 {"name":"Alex", "description":"Alex on Puolassa syntynyt ruuna. Ratsastaessa osaa olla laiska ja itsepäinenkin, mutta napakalla ratsastajalla liikkuu reippaasti ja mielellään. Saattaa äksyillä hoitaessa, joten laitetaan kuntoon käytävällä.  Säkäkorkeus noin 150cm, taso HeC/RE 60-70cm. Alex on tällä hetkellä ylläpidossa."},
 {"name":"Charly", "description":"Risteytysponiruuna Charly kuuluu tallin luottoratsuihin. Ratsastaessa mieluummin vähän laiska kuin liian reipas ja hyppää mielellään. Hoitaessa hyvin kiltti. Säkäkorkeus n. 140cm, taso HeC/RE 70cm."},
-{"name":"Cinderella", "description":"Cinde on hyvin reipas welsh-ponitamma. Vauhtia riittää joskus vähän liikaakin. Varsinkin esteillä Cinde todella innostuu ja saattaa hieman kuumua. Säkäkorkeus noin 125cm, taso HeC/RE 60-70cm."},
-
-{"name":"Czat","description":"Sakke on lempeä angloarabiruuna. Hoitaessa erittäin kiltti. Kiltti myös ratsastaessa, vaikka saattaa joskus hieman kuumua. Vauhtia Sakessa riittää, joten ratsastajan tulee olla napakka mutta rauhallinen. Hyppääminen on Saken lempipuuhaa! Taso HeB/RE 70-80cm."},
-
 
 {"name":"Dalana","description":"Mukava ponitamma. Talutetaan aina naru turvan ympärillä, ettei poistu omille seikkailuilleen. Reipas ratsastaa, hyppää hyvin. Säkäkorkeus noin 140cm, taso HeB/RE 70-80cm."},
 
@@ -20,8 +16,6 @@
 {"name":"Milli-Neiti","description":"Milli on reipas suomenhevostamma, joka on kiltti hoitaa. Taso HeC. Milli on tällä hetkellä ylläpidossa."},
 
 {"name":"Pepper","description":"Pepe on kiltti puoliveriruuna. Reipas ratsastaa, voi kuumua. Hyppää mielellään. Taso HeB/RE 80-90cm."},
-
-{"name":"Riverridge Romal","description":"Romal on rodultaan American Paint Horse ja onkin saanut myös lännenratsastuskoulutuksen. Kiltti hoitaa, hyppää ihan mielellään. Taso HeB/RE 60-70cm."},
 
 {"name":"Rot'Amour","description":"Roope on iso ja ihana, vanhempi ratsuruuna. Tosi kiltti hoitaa, mukava ratsastaa. Taso HeA."},
 

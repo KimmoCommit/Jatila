@@ -3,52 +3,52 @@
 
 {"day":"Ma","teacher":"Titta","lessons":[
 	
-	{"time":"Klo 17.00-18.00","description":"Junnut HeC"},
-	{"time":"Klo 18.00-19.00","description":"Esteryhmä"}
+	{"time":"Klo 17.00-18.00","description":"Yksityistunti"},
+	{"time":"Klo 18.00-19.00","description":"Hevosvoimia miehille"}
 
 ]},
 
 
-{"day":"Ti","teacher":"Titta","lessons":[
+{"day":"Ti","teacher":"","lessons":[
 	
 	{"time":"Klo 16.30-17.00","description":"Minitunti"},
 	{"time":"Klo 17.00-18.00","description":"Junnut HeC"},
-	{"time":"Klo 18.00-19.00","description":"Junnut/Sennut HeC/HeB"}
+	{"time":"Klo 18.00-19.00","description":"Junnut/Sennut HeB"}
 
 ]},
 
 
-{"day":"Ke","teacher":"Jarna, tuuraajana Salli","lessons":[
+{"day":"Ke","teacher":"","lessons":[
 	
-	{"time":"Klo 17.00-18.00","description":"Alkeistunti"},
-	{"time":"Klo 18.00-19.00","description":"Yleis/este Junnut"}
+	{"time":"Klo 17.00-18.00","description":"Jatko I"},
+	{"time":"Klo 18.00-19.00","description":"Junnut yleis/este"},
+	{"time":"Klo 19.00-20.00","description":"Yksityisryhmä"}
 
 ]},
 
-{"day":"To","teacher":"Salli","lessons":[
+{"day":"To","teacher":"","lessons":[
 	
-	{"time":"Klo 17.00-18.00","description":"Jatkoryhmä"},
-	{"time":"Klo 18.00-19.00","description":"Aikuisten alkeisryhmä"},
-	{"time":"Klo 19.00-20.00","description":"Junnut/sennut HeC/HeB"}
+	{"time":"Klo 18.00-19.00","description":"Jatko II"},
+	
+	{"time":"Klo 19.00-20.00","description":"Jatko sennut"}
 
 ]},
 
-{"day":"La","teacher":"Riikka, tuuraajana Salli","lessons":[
+{"day":"La","teacher":"","lessons":[
 	
-	{"time":"Klo 11.00-12.00","description":"Alkeisryhmä"},
-	{"time":"Klo 12.00-13.00","description":"HeC/HeB"},
 	{"time":"Klo 13.00-14.00","description":"Valmennusryhmä"}
 
 ]},
 
-{"day":"Su","teacher":"Salli","lessons":[
+{"day":"Su","teacher":"","lessons":[
 	
-	{"time":"Klo 11.00-12.00","description":"Mini-alkeiskurssi"}
+	{"time":"Klo 11.00-11:45","description":"Mini-alkeiskurssi"},
+	{"time":"Klo 12.00-13.00","description":"Sennut HeB"}
 	
 ]}
 
 
 
 ],[{
-	"season":"(kevät 2015)"
+	"season":"Kevät 2016"
 	}]]

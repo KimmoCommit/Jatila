@@ -14,8 +14,8 @@ div(class="row")
 	div(class="cute-6-tablet")
 		//h5(id="hinnat-special-offer") Arkipäivisin tunnit ennen klo 15: alennus <span>10€</span> normaalihinnoista!
 		img(id="special-offer-img" src="media/Mallu_trns.png" style="margin-top:-10px; width: 550px; height: auto")
-		h5(id="special-offer-text") Arkipäivisin tunnit ennen klo 15: alennus <span>10€</span> normaalihinnoista!
-
+		div(id="special-offer-text-container")
+			h5(id="special-offer-text" ng-bind-html="ErityisTarjous")
 
 //div(class="row")
 	div(class="cute-12-tablet")

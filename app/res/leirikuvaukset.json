@@ -3,7 +3,8 @@
 {"name":"Yleisleiri","description":"yleisleirit sisältävät 2h ratsastusta päivässä; koulua, esteitä, maastoa, ilman satulaa jne. Teoriaa/ käytännön harjoituksia 1h/pv."},
 {"name":"Vuokrausleiri","description":"ratsastusta 2h päivässä, toinen itsenäisesti ja toinen ohjatusti."},
 {"name":"Esteleiri","description":"ratsastusta 2h/päivä. Leireillä harjoitellaan enemmän esteratsastuksen perusteita; mm. istuntaa, tasapainoa, puomeja. Hypätään enemmän kuin muilla leireillä eli n.4 kertaa. Leirin lopussa esteratsastuskisat. Sopii useamman vuoden ratsastaneille ja jo vähän hypänneille."},
-{"name":"Estealkeet","description":"vähintään vuoden ratsastaneille, jotka ovat kiinnostuneita hyppäämisestä, hypänneet vasta vähän / ei vielä hypänneet. Paljon tehtäviä puomeilla ja mukavilla pikkuesteillä."},
-{"name":"Valmennusleiri","description":"kesän teholeiri este -tai kouluratsastusta! Sopii erityisen hyvin oman hevosen kanssa valmentautuville ja kisoihin tähtääville. Ratsastusta 2 tuntia päivässä. Viikon päätteeksi rataharjoitus."},
-{"name":"Alkeis-/yleisleiri","description":"leiriläiset jaetaan tason mukaan ryhmiin, alkeisleirille voi tulla ilman aiempaa ratsastuskokemusta. Alkeisleiriläisiä talutetaan tarvittaessa. Tälle leirille voit hyvin tulla kaverisi kanssa, vaikka olisitte hyvin eri tasoisia."}
+
+{"name":"Alkeis-/yleisleiri","description":"leiriläiset jaetaan tason mukaan ryhmiin, alkeisleirille voi tulla ilman aiempaa ratsastuskokemusta. Alkeisleiriläisiä talutetaan tarvittaessa. Tälle leirille voit hyvin tulla kaverisi kanssa, vaikka olisitte hyvin eri tasoisia."},
+{"name":"Poikien puuhaleiri","description":"ratsastusta, kärryajelua, mönkijäajoa, pelejä, uintia, ongintaa, nuotioiltaa ym.puuhaa pojille! Voi osallistua, vaikka ei ratsastaisi."}
+
 ]

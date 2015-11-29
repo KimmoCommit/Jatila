@@ -121,9 +121,10 @@ del 		= require('del');
  		APP.SRC+'/lib/lightbox.min.js',
  		APP.SRC+'/js/**/*'
  		])
- 	.pipe(changed(APP.DEST+'/app.js'))
+ 	//.pipe(changed(APP.DEST+'/app.js'))
  	.pipe(concat('app.js'))
- 	.pipe(gulp.dest(APP.DEST));
+ 	.pipe(gulp.dest(APP.DEST))
+	.pipe(connect.reload());
  });
 
 

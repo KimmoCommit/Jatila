@@ -1,3 +1,5 @@
 node_modules/
 .htaccess
 dist/
+LOCALFILES/
+LOCALFILES/**/*

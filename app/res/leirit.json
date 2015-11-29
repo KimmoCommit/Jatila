@@ -1,7 +1,7 @@
 [[
 {
 "name":"Sennuleiri",
-"time":"25.5-29.5",
+"time":"30.5-3.6",
 "description":"",
 "price":"450",
 "teacher":"Titta",
@@ -10,85 +10,103 @@
 
 {
 "name":"Yleisleiri",
-"time":"1.6-5.6",
+"time":"6.-10.6",
 "description":"",
 "price":"420",
-"teacher":"Titta",
+"teacher":"Titta/Riikka",
+"full": false
+},
+
+{
+"name":"Lasten päiväleiri",
+"time":"6.-10.6",
+"description":"",
+"price":"310",
+"teacher":"Salli",
 "full": false
 },
 
 {
 "name":"Vuokrausleiri",
-"time":"8.6-12.6",
+"time":"13.-17.6",
 "description":"",
 "price":"450",
-"teacher":"(Riikka)",
+"teacher":"Titta",
+"full": false
+},
+
+{
+"name":"Poikien puuhaleiri",
+"time":"13.-16.6",
+"description":"",
+"price":"360",
+"teacher":"Eero ja Titta",
 "full": false
 },
 
 {
 "name":"Esteleiri",
-"time":"15.6-19.6 ",
+"time":"20.-24.6",
 "description":"",
 "price":"450",
 "teacher":"Sara",
-"full": true
+"full": false
 },
 
 {
 "name":"Alkeis-/yleisleiri",
-"time":"22.-26.6",
+"time":"27.6-1.7",
 "description":"",
 "price":"420",
 "teacher":"Riikka",
-"full": false
-},
-
-{
-"name":"Valmennussleiri",
-"time":"29.6-3.7",
-"description":"",
-"price":"495",
-"teacher":"Jarna",
-"full": false
-},
-
-{
-"name":"Vuokrausleiri",
-"time":"6.7- 10.7",
-"description":"",
-"price":"450",
-"teacher":"(Jarna)",
-"full": false
-},
-
-{
-"name":"Yleis-/Estealkeet",
-"time":"13.7- 17.7",
-"description":"",
-"price":"450",
-"teacher":"Titta",
 "full": false
 },
 
 {
 "name":"Yleisleiri",
-"time":"27.7- 31.7",
+"time":"4.-8.7",
 "description":"",
 "price":"420",
 "teacher":"Riikka",
-"full": true
+"full": false
+},
+
+{
+"name":"Vuokrausleiri",
+"time":"11.-15.7",
+"description":"",
+"price":"450",
+"teacher":"Salli",
+"full": false
+},
+
+{
+"name":"Yleis-/Esteleiri",
+"time":"18.-22.7",
+"description":"",
+"price":"420/450",
+"teacher":"Riikka",
+"full": false
+},
+
+{
+"name":"Yleisleiri",
+"time":"25.-29.7",
+"description":"",
+"price":"420",
+"teacher":"Salli",
+"full": false
 },
 
 {
 "name":"Esteleiri",
-"time":"3.8-7.8",
+"time":"1.-5.8",
 "description":"",
 "price":"450",
-"teacher":"Jarna",
-"full": true
+"teacher":"Titta",
+"full": false
 }
 ],[{
-	"season":"(kesä 2015)"
+	"season":"Kesän 2016 leiritiedot"
 	}]
 ]

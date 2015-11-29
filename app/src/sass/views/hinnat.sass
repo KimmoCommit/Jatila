@@ -32,15 +32,28 @@
 	margin-top: -10px
 
 #special-offer-text
-	position: absolute
-	top: 45px
-	left: 0
+	display: relative
+	max-height: 80px
+	max-width: 445px
 	width: 100%
-	display: inline-block
-	margin-left: 60px
-	//border: 1px solid red
+	text-align: left
+	height: 100%
 	font-size: 28px
 	font-family: $commonFont
-	padding: 2%
-	span	
+	overflow: hidden
+	span
+		display: inline-block	
 		color: $ribbonMainColor - 30
+
+#special-offer-text-container
+	padding: 0px
+	position: absolute
+	text-align: center
+	display: flex
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 55px
+	left: 70px
+	width: 445px
+	height: 80px
