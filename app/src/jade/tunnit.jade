@@ -5,14 +5,15 @@ div(class="row")
 div(class="row")
 	
 	div(class='cute-7-tablet')
-		div(class='tunti-list-container' ng-repeat='tunti in Tunnit')
+		div(class='tunti-list-container' ng-if="!VainKuvaus" ng-repeat='tunti in Tunnit')
 			table
 				tr
 					td <span class="tunti-list-day">{{tunti.day}}</span> ({{tunti.teacher}})
 
 				tr(ng-repeat='lesson in tunti.lessons')
 					td {{lesson.time}} {{lesson.description}}
-
+		div(class='tunti-kuvaus' ng-if='VainKuvaus')
+			p(ng-bind-html='KausiKuvaus')
 
 	div(class="cute-5-tablet")
 		img(src="media/three_horses.jpg" style="width:100%; height:auto; box-shadow:2px 2px 2px grey")

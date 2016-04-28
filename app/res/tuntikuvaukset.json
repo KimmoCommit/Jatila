@@ -1,9 +1,10 @@
 [
-{"name": "Alkeisryhmä ", "description": "Aloittavien tai vähän ratsastaneiden ryhmä, jossa opetellaan hevosenhoidon ja ratsastuksen perusteet. Taluttajat tarvittaessa."},
-{"name": "Jatkoryhmä", "description": "Ilman taluttajaa pärjääville sopiva ryhmä, jossa harjoitellaan tasapuolisesti esteitä, puomeja ja koulua. Lähinnä poniratsastajille suunniteltu ryhmä."},
-{"name": "HeC", "description": "Kaikissa askellajeissa ratsunsa hallitseville. Ratsastetaan hevosilla ja poneilla. Tunneilla mennään puomeja, esteitä ja koulua."},
-{"name": "Mini-alkeiskurssi", "description": "Alle kouluikäisten oma alkeisryhmä, jossa 45min. mittaisella tunnilla opetellaan ponien hoitoa ja käsittelyä, sekä ratsastetaan 20-30min. kerrallaan, kokeillaan ponileikkejä, jumpataan ponien selässä ja opetellaan uutta harrastusta turvallisesti, kuitenkin hauskaa pitäen."},
-{"name": "Alkeiskurssi", "description": "Alkeiskurssi, sunnuntaisin, 10 kerran kurssi lapsille ja aikuisille, joilla ei ratsastuskokemusta/ vain vähän ratsastaneet."},
-{"name": "Muu toiminta", "description": "Tallilla järjestetään harjoituskilpailuja, joihin kaikkien ryhmien ratsastajat ovat tervetulleita osallistumaan."}
-
+{"name": "Mini-alkeiskurssi", "description" : "Alle kouluikäisten oma alkeisryhmä, jossa 45 min aikana harjoitellaan ponin hoitoa ja ratsastetaan 20-30 min. Opetellaan uutta harrastusta turvallisesti, mutta kuitenkin hauskaa pitäen." },
+{"name": "Alkeiskurssi", "description" : "10-kerran kurssi aikuisille ja lapsille, joilla ei lainkaan / vähän kokemusta ratsastuksesta."},
+{"name": "Jatkoryhmä", "description" : "Ilman taluttajaa pärjääville suunniteltu ryhmä, jossa ratsastetaan monipuolisesti puomeja, esteitä ja koulua."},
+{"name": "HeC", "description" : "Kaikissa askellajeissa ratsunsa hallitseville. Monipuolisesti niin koulu- kuin esteratsastustakin."},
+{"name": "HeB", "description" : "Jo enemmän ratsastaneille ja vähän hypänneille. Monipuolisesti koulu- ja esteratsastusta."},
+{"name": "HeA", "description" : "Paljon ratsastaneille. Monipuolisesti koulu- ja esteratsastusta."},
+{"name": "Estepainotteinen ryhmä", "description" : "Esteratsastuksesta kiinnostuneille, ratsunsa kaikissa askellajeissa hallitseville ja ratsastajille, joilla ennestään ainakin vähän hyppykokemusta. Keskitytään esteratsastukseen, mutta myös koulutunteja."},
+{"name": "Pienryhmä", "description" : "Max. 3 ratsastajaa ryhmässä. Kaiken tasoisille ratsastajille, jotka haluavat yksilöllisempää opetusta."}
 ]
