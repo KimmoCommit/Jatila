@@ -66,12 +66,12 @@ $logProvider.debugEnabled(true);
 }]);
 
 
-app.run(['$location', '$rootScope',  function($location, $rootScope) {
+app.run(['$location', '$rootScope', '$templateCache',  function($location, $rootScope, $templateCache) {
 	$rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
-
 		$rootScope.title = current.$$route.title;
-
-
+	});
+		$rootScope.$on('$viewContentLoaded', function () {
+		$templateCache.removeAll();
 	});
 }]);
 
